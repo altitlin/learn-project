@@ -1,0 +1,25 @@
+import { Meta, ArgTypes, Canvas } from '@storybook/blocks';
+
+import * as SpinnerStories from './spinner.stories';
+
+<Meta of={SpinnerStories} />
+
+# Spinner
+
+Spinner inform users about the status of ongoing processes, such as loading an app, submitting a form, or saving updates.
+
+## Import
+
+```tsx
+  import { Spinner } from 'shared/ui/spinner';
+```
+
+<Canvas
+  of={SpinnerStories.Usage}
+  layout='centered'
+  sourceState='shown'
+/>
+
+## Spinner API
+
+<ArgTypes />

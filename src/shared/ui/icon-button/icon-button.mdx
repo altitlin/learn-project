@@ -1,0 +1,27 @@
+import { Meta, ArgTypes, Canvas } from '@storybook/blocks';
+
+import * as IconButtonStories from './icon-button.stories';
+
+<Meta of={IconButtonStories} />
+
+# IconButton
+
+Icon buttons are commonly found in app bars and toolbars.
+
+## Import
+
+```tsx
+  import { IconButton } from 'shared/ui/icon-button';
+```
+
+## Basic icon-button
+
+<Canvas
+  of={IconButtonStories.Usage}
+  layout='centered'
+  sourceState='shown'
+/>
+
+## IconButton API
+
+<ArgTypes />

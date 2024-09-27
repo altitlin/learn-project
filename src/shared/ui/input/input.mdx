@@ -1,0 +1,27 @@
+import { Meta, ArgTypes, Canvas } from '@storybook/blocks';
+
+import * as InputStories from './input.stories';
+
+<Meta of={InputStories} />
+
+# Input
+
+Input allow users to enter text into a UI. They typically appear in forms and dialogs.
+
+## Import
+
+```tsx
+  import { Input } from 'shared/ui/input';
+```
+
+## Basic input
+
+<Canvas
+  of={InputStories.Usage}
+  layout='centered'
+  sourceState='shown'
+/>
+
+## Input API
+
+<ArgTypes />
