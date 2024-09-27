@@ -1,0 +1,16 @@
+.signInForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+
+  & .signInBtn {
+    margin-left: auto;
+    margin-top: 10px;
+  }
+
+  & .title {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}

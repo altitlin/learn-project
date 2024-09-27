@@ -1,0 +1,27 @@
+import { Meta, ArgTypes, Canvas } from '@storybook/blocks';
+
+import * as ButtonStories from './button.stories';
+
+<Meta of={ButtonStories} />
+
+# Button
+
+Buttons allow users to take actions, and make choices, with a single tap.
+
+## Import
+
+```tsx
+  import { Button } from 'shared/ui/button';
+```
+
+## Basic button
+
+<Canvas
+  of={ButtonStories.Usage}
+  layout='centered'
+  sourceState='shown'
+/>
+
+## Button API
+
+<ArgTypes />

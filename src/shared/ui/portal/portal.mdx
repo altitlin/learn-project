@@ -1,0 +1,25 @@
+import { Meta, ArgTypes, Canvas } from '@storybook/blocks';
+
+import * as PortalStories from './portal.stories';
+
+<Meta of={PortalStories} />
+
+# Portal
+
+The Portal component lets you render its children into a DOM node that exists outside of the Portal's own DOM hierarchy.
+
+## Import
+
+```tsx
+  import { Portal } from 'shared/ui/portal';
+```
+
+<Canvas
+  of={PortalStories.Usage}
+  layout='centered'
+  sourceState='shown'
+/>
+
+## Portal API
+
+<ArgTypes />
